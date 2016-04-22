@@ -1,0 +1,5 @@
+language: ruby
+sudo: false
+script: bundle exec ruby test/app_test.rb
+rvm:
+- 2.2.3
