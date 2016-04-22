@@ -1,7 +1,7 @@
 require 'sinatra/base'
 require 'json'
 
-class FakeIdvaas < Sinatra::Application
+class FakeIdV < Sinatra::Application
   get '/' do
     'Hello, USA!'
   end

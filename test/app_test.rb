@@ -5,11 +5,11 @@ require 'test/unit'
 require 'rack/test'
 # require 'json'
 
-class FakeIdvaasTest < Test::Unit::TestCase
+class FakeIdVTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
-    FakeIdvaas
+    FakeIdV
   end
 
   def test_it_says_hello_usa
